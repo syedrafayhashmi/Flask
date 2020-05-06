@@ -16,7 +16,7 @@ def register():
         user = User(
             name=name, 
             unhashed_password=unhashed_password,
-            admin=False,  
+            admin=True,  
             expert=False
         )
 
